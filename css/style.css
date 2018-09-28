@@ -1,8 +1,23 @@
-body{margin:0;font-family:Arial,Helvetica,sans-serif}
+*{box-sizing: border-box;}
+body {width: 90%;max-width: 980px;margin: 0 auto;}
+.wrapper {padding-right: 2.08333333%;}
+.row {clear: both;}
+.col {float: left;margin-left: 2.08333333%;width: 6.25%;background: rgb(255, 150, 150);}
+.col.span2 { width: 14.58333333%; }
+.col.span3 { width: 22.91666666%; }
+.col.span4 { width: 31.24999999%; }
+.col.span5 { width: 39.58333332%; }
+.col.span6 { width: 47.91666665%; }
+.col.span7 { width: 56.24999998%; }
+.col.span8 { width: 64.58333331%; }
+.col.span9 { width: 72.91666664%; }
+.col.span10 { width: 81.24999997%; }
+.col.span11 { width: 89.5833333%; }
+.col.span12 { width: 97.91666663%; }
 .topnav{overflow:hidden;background-color:#333;display:flex;flex-wrap:wrap;align-items:center;align-content: space-between}
 .container{width:100%;margin-left:5rem;margin-right:5rem;display:block;background:red;}
-.logo{height:100%;float:left;display:flex;flex-wrap:wrap;align-items:center;align-content: space-between;background:yellow}
-.menu{height:100%;display:block;float:right;background:magenta;width:100%}
+.logo{height:100%;display:inline;float:left;background:yellow;width:10%;min-width:100px}
+.menu{height:100%;display:inline;float:right;background:magenta}
 fixed-top {position: fixed;top: 0;right: 0;left: 0;z-index: 1030;}
 .topnav a{float:left;display:block;color:#f2f2f2;text-align:center;padding:14px 16px;text-decoration:none;font-size:17px}
 .topnav a:hover{background-color:#ddd;color:#000}
